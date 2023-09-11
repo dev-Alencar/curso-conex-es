@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(255, 191, 149)
+}
+
+.border-fieldset{
+    border-color: rgb(71, 71, 167);
+}
+
+.first-header{
+    color: orangered;
+}
+
+button{
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
