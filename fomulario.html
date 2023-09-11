@@ -12,15 +12,24 @@
 <body>
     <form>
         <fieldset class="border-fieldset">
-            <div class="first-header">
-                <h1>Formulário de Inscrição</h1>
-                <h2>Conexões periféricas</h2>
+            <div class="header">
+                <div class="header-first">
+                    <h1>Formulário de Inscrição</h1>
+                </div>
+
+                <div class="header-second">
+                    <h2>Conexões periféricas</h2>
+                </div>
             </div>
             <div>
-                <p>O conexões periféricas é um Programa de Formação e Desenvolvimento Profissional no Campo de
-                    Tecnologia da
-                    informação.</p>
-                <p>Faça sua Inscrição preenchendo os campos abaixo e boa sorte!</p>
+                <div>
+                    <p class="box-content-describe-first">O conexões periféricas é um Programa de Formação e Desenvolvimento Profissional no Campo de Tecnologia da informação.</p>
+                </div>
+
+                <div class="box-content-describe-second">
+                    <p>Faça sua Inscrição preenchendo os campos abaixo e boa sorte!</p>
+                </div>
+                
             </div>
         </fieldset>
 
@@ -86,7 +95,7 @@
 
         <fieldset class="border-fieldset">
             <legend>Meio de transporte principal</legend>
-            
+
             <input type="checkbox">
             <label for="subscribeNews"> Bike </label>
             <br>
@@ -106,7 +115,7 @@
 
         <fieldset class="border-fieldset">
             <legend>Qual das tecnologias abaixo está relacionada com o seu estilo?</legend>
-            
+
             <input type="checkbox">
             <label for="subscribeNews"> HTML </label>
             <br>
@@ -120,8 +129,10 @@
 
         </fieldset>
         <br>
-
-        <button>FINALIZAR CADASTRO</button>
+        <div class="box-button">
+            <button class="button">FINALIZAR CADASTRO</button>
+        </div>
+        
     </form>
 
 </body>

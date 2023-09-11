@@ -1,16 +1,47 @@
-body{
+body {
     background-color: rgb(255, 191, 149)
 }
 
-.border-fieldset{
+fieldset {
+    margin-top: 20px;
+}
+
+.border-fieldset {
     border-color: rgb(71, 71, 167);
 }
 
-.first-header{
+.header {
     color: orangered;
+
 }
 
-button{
+.header-first {
+    display: flex;
+    justify-content: center;
+}
+
+.header-second {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-content-describe-first {
+    display: flex;
+    justify-content: center;
+}
+
+.box-content-describe-second {
+    display: flex;
+    justify-content: center;
+}
+
+.box-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
     width: 200px;
     padding: 10px 20px 10px 20px;
     background-color: orangered;
