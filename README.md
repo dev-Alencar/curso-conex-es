@@ -1,1 +1,3 @@
-# curso-conex-es
+# curso-conex
+
+Repositório criado para salvar alguns exercícios 
