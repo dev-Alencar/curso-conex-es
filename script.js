@@ -4,30 +4,30 @@ function calc()
  var num1 = parseFloat(document.getElementById("num1").value);
  var num2 = parseFloat(document.getElementById("num2").value);
  var texto='';
- 
 
- function subtracao(x, y)
+
+ function subtracao(a, b)
  {
    
-   return (x-y);
+   return (a-b);
  }
 
- function soma(x, y)
+ function soma(a, b)
 {
   
-  return (x+y);
+  return (a+b);
 }
 
-function divisao(x, y)
+function divisao(a, b)
 {
   
-  return (x/y);
+  return (a/b);
 }
 
-function multiplicacao(x, y)
+function multiplicacao(a, b)
 {
   
-  return (x*y);
+  return (a*b);
 }
 
 
