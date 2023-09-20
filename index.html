@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="full-box">
+        <fieldset>
+            <legend>Calculadora </legend>
+
+            <div class="num-1">
+                <label>Número 1:</label>
+                <br>
+                <input id="num1" type="number">
+                <br />
+            </div>
+
+            <div class="num-2">
+                <label>Número 2:</label>
+                <br>
+                <input id="num2" type="number"> <br />
+            </div>
+
+
+            <div class="box-count">
+                <input type="radio" name="calc" id="soma" />
+                <label>Soma</label>
+                <br>
+
+                <input type="radio" name="calc" id="subtracao" />
+                <label>Subtração</label>
+                <br>
+
+                <input type="radio" name="calc" id="multiplicacao" />
+                <label>Multiplicação</label>
+                <br>
+
+                <input type="radio" name="calc" id="divisao" />
+                <label>Divisão</label>
+                <br>
+            </div>
+
+
+
+            <div class="box-button">
+                <button onclick="calc()">Calcular</button><br />
+            </div>
+
+            <div class="box-resp">
+                <h2>Resposta:</h2>
+
+                <div class="div-resp" id="resposta"></div>
+            </div>
+
+        </fieldset>
+    </div>
+
+
+</body>
+
+</html>
